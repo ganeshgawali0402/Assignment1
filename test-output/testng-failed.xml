@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment1]">
+  <test thread-count="5" name="Smoke(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Assignment1testCases.TC_LoginTest_Checking_001">
+        <methods>
+          <include name="loginTestChecking"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Assignment1testCases.TC_LoginTest_Checking_001 -->
+      <class name="com.Assignment1testCases.TC_LoginTest_Saving_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTestSaving"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Assignment1testCases.TC_LoginTest_Saving_001 -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Assignment1] -->

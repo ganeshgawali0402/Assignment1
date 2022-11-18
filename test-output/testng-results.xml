@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assignment1" duration-ms="30144" started-at="2022-11-17T13:45:00Z" finished-at="2022-11-17T13:45:31Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="30144" started-at="2022-11-17T13:45:00Z" finished-at="2022-11-17T13:45:31Z">
+      <class name="com.Assignment1testCases.TC_LoginTest_Checking_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Checking_001@59d016c9]" name="setup" is-config="true" duration-ms="4853" started-at="2022-11-17T13:45:16Z" finished-at="2022-11-17T13:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestChecking()[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Checking_001@59d016c9]" name="loginTestChecking" duration-ms="8760" started-at="2022-11-17T13:45:21Z" finished-at="2022-11-17T13:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestChecking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Checking_001@59d016c9]" name="tearDown" is-config="true" duration-ms="633" started-at="2022-11-17T13:45:30Z" finished-at="2022-11-17T13:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Assignment1testCases.TC_LoginTest_Checking_001 -->
+      <class name="com.Assignment1testCases.TC_LoginTest_Saving_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Saving_001@4b5a5ed1]" name="setup" is-config="true" duration-ms="6738" started-at="2022-11-17T13:45:00Z" finished-at="2022-11-17T13:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestSaving()[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Saving_001@4b5a5ed1]" name="loginTestSaving" duration-ms="8501" started-at="2022-11-17T13:45:07Z" finished-at="2022-11-17T13:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSaving -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Assignment1testCases.TC_LoginTest_Saving_001@4b5a5ed1]" name="tearDown" is-config="true" duration-ms="642" started-at="2022-11-17T13:45:16Z" finished-at="2022-11-17T13:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Assignment1testCases.TC_LoginTest_Saving_001 -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Assignment1 -->
+</testng-results>
